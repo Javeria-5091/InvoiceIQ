@@ -1,0 +1,22 @@
+# Secrets (never commit)
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+
+# Uploaded files and local data
+backend/uploads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
